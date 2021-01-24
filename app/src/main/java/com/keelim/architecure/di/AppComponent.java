@@ -1,5 +1,7 @@
 package com.keelim.architecure.di;
 
+import com.keelim.architecure.App;
+
 import javax.inject.Singleton;
 
 import dagger.Component;
