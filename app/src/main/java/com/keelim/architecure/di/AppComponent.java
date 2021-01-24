@@ -4,9 +4,13 @@ import com.keelim.architecure.App;
 
 import javax.inject.Singleton;
 
+
 import dagger.Component;
+
+import dagger.android.AndroidInjectionModule;
 import dagger.android.AndroidInjector;
 import dagger.android.support.AndroidSupportInjectionModule;
+
 
 @Singleton
 @Component(modules={
@@ -14,7 +18,7 @@ import dagger.android.support.AndroidSupportInjectionModule;
         ActivityModule.class,
         AppModule.class
 })
-public interface AppComponent extends AndroidInjector<App>{
+public interface AppComponent extends AndroidInjector<App> {
     @Component.Factory
     abstract class Factory implements AndroidInjector.Factory<App>{
 

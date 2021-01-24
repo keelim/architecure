@@ -27,4 +27,14 @@ public class SingleLiveEvent<T> extends MutableLiveData<T> {
             }
         });
     }
+
+    @MainThread
+    public void setValue(T t){
+        mPending.set(true);
+    }
+
+    @MainThread
+    public void call(){
+        setValue(null);
+    }
 }

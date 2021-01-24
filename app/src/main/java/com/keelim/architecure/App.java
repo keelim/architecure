@@ -1,8 +1,8 @@
 package com.keelim.architecure;
 
-import dagger.android.AndroidInjector;
 
-import dagger.android.support.DaggerApplication;
+import dagger.android.AndroidInjector;
+import dagger.android.DaggerApplication;
 import timber.log.Timber;
 
 public class App extends DaggerApplication {
