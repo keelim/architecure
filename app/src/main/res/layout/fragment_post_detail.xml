@@ -7,7 +7,7 @@
 
         <variable
                 name="viewModel"
-                type="com.keelim.architecture.ui.detail.PostDetailViewModel" />
+                type="com.keelim.arch.ui.detail.PostDetailViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

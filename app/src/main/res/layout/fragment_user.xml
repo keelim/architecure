@@ -9,7 +9,7 @@
 
         <variable
                 name="viewModel"
-                type="com.keelim.architecture.ui.user.UserViewModel" />
+                type="com.keelim.arch.ui.user.UserViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
