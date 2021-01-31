@@ -7,7 +7,7 @@
 
     <fragment
             android:id="@+id/post_fragment"
-            android:name="com.keelim.architecture.ui.post.PostFragment"
+            android:name="com.keelim.arch.ui.post.PostFragment"
             android:label="fragment_post"
             tools:layout="@layout/fragment_post">
         <!--PostFragment에서 PostDetailFragment로 이동-->
@@ -20,13 +20,13 @@
     </fragment>
     <fragment
             android:id="@+id/post_detail_fragment"
-            android:name="com.keelim.architecture.ui.detail.PostDetailFragment"
+            android:name="com.keelim.arch.ui.detail.PostDetailFragment"
             android:label="fragment_post_detail"
             tools:layout="@layout/fragment_post_detail">
         <!--PostDetailFragment가 요구하는 인자로 Post를 설정한다.-->
         <argument
                 android:name="post"
-                app:argType="com.keelim.architecture.data.entity.Post" />
+                app:argType="com.keelim.arch.data.entity.Post" />
         <action
                 android:id="@+id/action_post_detail_fragment_to_userFragment"
                 app:destination="@id/userFragment"
@@ -35,7 +35,7 @@
     </fragment>
     <fragment
             android:id="@+id/userFragment"
-            android:name="com.keelim.architecture.ui.user.UserFragment"
+            android:name="com.keelim.arch.ui.user.UserFragment"
             android:label="UserFragment">
         <argument
                 android:name="userId"

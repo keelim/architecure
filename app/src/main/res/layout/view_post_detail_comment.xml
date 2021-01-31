@@ -7,7 +7,7 @@
 
         <variable
                 name="item"
-                type="com.keelim.architecture.ui.detail.PostDetailCommentItem" />
+                type="com.keelim.arch.ui.detail.PostDetailCommentItem" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
